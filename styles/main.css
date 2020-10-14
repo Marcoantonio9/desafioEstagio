@@ -1,0 +1,174 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#page-home{
+    display: flex;
+    justify-content: space-around;
+    
+    margin-top: 20px;
+    width: 100%;
+    height: 80vh;
+}
+.definir-tamanho-categoria{
+    width: 54%;
+}
+
+.definir-tamanho-img{
+    width:100%;
+}
+
+.definir-tamanho-buy{
+    width: 100%;
+}
+
+#categoria{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#categoria ul{
+    list-style: none;
+    height: 100%;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#categoria li a{
+    color: #000000;
+    font-family: 'Nunito', sans-serif;
+    font-size: 24px;
+    text-decoration: none;
+}
+
+#categoria li:hover{
+    transform: scale(1.2);
+}
+
+
+#imagem img{
+    width: 100%;
+    height: 100%;
+}
+
+#adicionar{
+    display: flex;
+    flex-direction: column;
+    font-family: 'Nunito', sans-serif;
+    font-size: 30px;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#selecionar-itens{
+    display: flex;
+    flex-direction: row;
+}
+
+.quadrado{
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+}
+
+#cor1{
+    background-color: #000000;
+}
+
+#cor2{
+    transform: scale(1.3);
+    background-color: #4a6286;
+}
+
+#cor3{
+    background-color: #943203;
+}
+
+#quantidade{
+    margin-left: 70px;
+    height: 50px;
+    width: 70px;
+}
+
+#botoes{
+    display: flex;
+    flex-direction: column;
+}
+
+.btn{
+    width: 250px;
+    height: 45px;
+    margin-bottom: 10px;
+    font-family: 'Nunito', sans-serif;
+    cursor: pointer;
+}
+
+#comprar{
+    text-transform: uppercase;
+    border: none;
+    background-color: #799afb;
+    transition: linear .2s;
+}
+
+#comprar:hover{
+    background-color: #ffffff;
+    border: 1px solid #799afb;
+}
+
+#add{
+    background-color: #ffffff;
+    border: 1px solid #000000;
+    transition: linear .2s;
+}
+
+#add:hover{
+    border: 1px solid #ffffff;
+    background-color: #414141;
+    color: #ffffff;
+}
+
+.container{
+    width: 780px;
+    height: 300px;
+    
+    display: flex;
+    margin: 0 auto;
+    font-family: 'Nunito', sans-serif;
+}
+
+#related-itens{
+    display: flex;
+    flex-direction: column;
+}
+
+#itens-icons{
+    display: flex;
+    flex-direction: row;
+    margin-top: 10px;
+}
+
+#itens-icons p{
+    font-size: 20px;
+    letter-spacing: 2px;
+}
+
+.ajuste-img{
+    width: 250px;
+    height: 200px;
+    margin-right: 30px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.ajuste-img img{
+    width: 100%;
+    height: 100%;
+}

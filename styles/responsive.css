@@ -1,0 +1,28 @@
+@media(max-width: 780px){
+    nav{
+        display: none;
+    }
+    #page-home{
+        display: flex;
+        flex-direction: column;
+        height: 100%;
+        width: 100%;
+    }
+    #categoria{
+        display: none;
+    }
+    #adicionar{
+        height: 100%;
+        margin-bottom: 100px;
+    }
+    #itens-icons{
+        flex-direction: column;
+        align-items: center;
+    }
+    .ajuste-img{
+        margin-bottom: 40px;
+    }
+    .container{
+        width: 100%;
+    }
+}
