@@ -71,6 +71,10 @@
     flex-direction: row;
 }
 
+#titulo p{
+    text-transform: uppercase;
+}
+
 .quadrado{
     width: 30px;
     height: 30px;
