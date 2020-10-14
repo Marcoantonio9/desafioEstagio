@@ -2,7 +2,7 @@
 
 <p>Desafio para vaga de estágio, para abrir a aplicação web basta fazer o download e abrir o arquivo index.</p>
 
-<strong>Tecnologias utilizadas: </strong>
+<strong>No desenvolvimento foi utilizado apenas: </strong>
 
 <ul>
     <li>HTML</li>
